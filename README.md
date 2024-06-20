@@ -1,4 +1,5 @@
-# hashTS
-Jogo da velha com TypeScript
+# Jogo da velha com TypeScript
 
-Vamos jogar um jogo da velha? lets go
+## Status
+
+![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge)
