@@ -1,4 +1,4 @@
-# Jogo da velha com TypeScript
+Oi# Jogo da velha com TypeScript
 
 ## Status
 
@@ -19,3 +19,4 @@ chagens 10
 chances 1
 chagens 2
 chances 3
+chances 4
