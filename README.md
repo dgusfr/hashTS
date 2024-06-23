@@ -15,3 +15,5 @@ chagens 7
 chagens 8
 chances 9
 chagens 10
+
+chances 1
