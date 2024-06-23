@@ -22,3 +22,4 @@ chances 3
 chances 4
 chances 5
 chances 6
+chances 7
