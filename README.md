@@ -1,4 +1,4 @@
-Oi# Jogo da velha com TypeScript
+seOi# Jogo da velha com TypeScript
 
 ## Status
 
@@ -27,3 +27,4 @@ chances 8
 chances 9
 chances 10
 changes 11
+chances 12
