@@ -43,3 +43,54 @@ Um simples jogo da velha desenvolvido em TypeScript, HTML e CSS, onde dois jogad
 Este projeto é uma implementação de um clássico jogo da velha utilizando TypeScript para a lógica do jogo, HTML para a estrutura e CSS para o estilo. É uma aplicação simples e divertida que permite dois jogadores competirem para alinhar três símbolos iguais em uma linha, coluna ou diagonal.
 
 ## Funcionalidades
+
+- Dois jogadores podem jogar alternadamente.
+- Contagem de pontuação para cada jogador.
+- Reinício automático do jogo após cada partida.
+
+## Explicação
+
+```typescript
+function verificarVencedor() {
+  const combinacoesVitoria = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6],
+  ];
+  for (const combinacao of combinacoesVitoria) {
+    const [a, b, c] = combinacao;
+    if (
+      tabuleiro[a] &&
+      tabuleiro[a] === tabuleiro[b] &&
+      tabuleiro[a] === tabuleiro[c]
+    ) {
+      statusJogo = StatusJogo.Vitoria;
+      jogoAcabou = true;
+      const vencedor = jogadorAtual === "X" ? `Jogador X` : `Jogador O`;
+      if (jogadorAtual === "X") {
+        pontuacaoX++;
+      } else {
+        pontuacaoO++;
+      }
+      setTimeout(() => {
+        alert(`${vencedor} venceu!`);
+        reiniciarJogo();
+      }, 100);
+      return;
+    }
+  }
+  if (!tabuleiro.includes(null)) {
+    statusJogo = StatusJogo.Empate;
+    jogoAcabou = true;
+    setTimeout(() => {
+      alert("Empate!");
+      reiniciarJogo();
+    }, 100);
+  }
+}
+```
