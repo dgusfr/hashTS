@@ -1,6 +1,7 @@
 # Jogo da Velha
 
-Um simples jogo da velha desenvolvido em TypeScript, HTML e CSS, onde dois jogadores podem se divertir e competir para ver quem consegue alinhar três símbolos iguais em uma linha, coluna ou diagonal.
+Um simples jogo da velha desenvolvido em TypeScript, HTML e CSS, onde dois jogadores podem se divertir e competir
+para ver quem consegue alinhar três símbolos iguais em uma linha, coluna ou diagonal.
 
 <br></br>
 
