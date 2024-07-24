@@ -94,3 +94,15 @@ function verificarVencedor() {
   }
 }
 ```
+
+## Como Usar
+
+`1.` Clone o repositório para a sua máquina local.
+
+`2.` Abra o arquivo index.html no seu navegador.
+
+`3.` Divirta-se jogando com um amigo.
+
+## Autor
+
+Desenvolvido por Diego Franco
