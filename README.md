@@ -24,6 +24,7 @@ para ver quem consegue alinhar três símbolos iguais em uma linha, coluna ou di
 - [Autor](#autor)
 
 <br></br>
+<br></br>
 
 ## Tecnologias Utilizadas
 
